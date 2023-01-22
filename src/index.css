@@ -5,9 +5,41 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #1C1C1C;
+  color: white;
+}
+
+.cover{
+  margin: 100px 100px;
+  background-color: #23252C;
+}
+
+.content-container{
+  padding: 50px 200px;
+  display: flex;
+  justify-content: center;
+  flex-direction:column ;
+}
+
+.img-container img{
+  width: 400px ;
+  align-items: center;
+}
+
+.name-work-place{
+  text-align: center;
+}
+
+.name-work-place h1{
+  font-size: 25px;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.footer-icon-container{
+  display: flex;
+  justify-content:center ;
 }
