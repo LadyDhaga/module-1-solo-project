@@ -3,13 +3,12 @@ import { ReactDOM } from "react";
 
 export default function MainContent(){
     return (
-            <div className="cover"> 
+        <div className="cover">
+            <div> 
                 <div className="content-container">
-
                     <div className="img-container">
-                        <img src="https://images.unsplash.com/photo-1638727295415-286409421143?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="logo"></img>
+                        <img src="https://images.unsplash.com/photo-1659087805683-394473f09b5b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80" alt="logo"></img>
                     </div>
-
                     <div className="text-container">
                         <div className="name-work-place">
                             <h1>Manpreet Kumari</h1>
@@ -18,8 +17,8 @@ export default function MainContent(){
                         </div>
 
                         <div className="buttons">
-                            <button></button>
-                            <button></button>
+                            <button className="email" href=""> <label>Email</label></button>
+                            <button className="linkedin" onclick="location.href='http://www.example.com'" type="button">  <label>LinkedIn</label></button>
                         </div>
 
                         <div className="about-interests">
@@ -42,6 +41,7 @@ export default function MainContent(){
                             </div>
                         </footer>
                     </div>
+            </div>
             </div>
     );
 }
