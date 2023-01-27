@@ -145,7 +145,16 @@ code {
   font-size: 10.24px;
   color: #dcdcdc;
 }
-.buttons > button{
+.buttons{
+  /* padding-top: 5px; */
+  justify-content: space-evenly;
+  display: flex;
+  margin: 0px 10px;
+  font: bolder;
+  font-weight: bold;
+  flex-direction: row;
+}
+.buttons > a{
   width: 115px;
   height: 34px;
   border-radius: 6px;
@@ -156,37 +165,21 @@ code {
   color: #374151;
   font: bold;
   font-weight: bold;
-  /* display: flex; */
-  justify-content: space-between;
-  padding: hug;
-  /* font-weight: 500; */
-  /* justify-content: space-between; */
-  /* margin-left: auto; */
-}
-
-.buttons{
-  /* align-items: center; */
   justify-content: space-evenly;
-  display: flex;
-  margin: 0px 10px;
-  font: bolder;
-  font-weight: bold;
-  flex-direction: row;
-  /* justify-content: space-between; */
+  /* padding-left: 30px; */
+  text-align: center;
+  /* padding-top: 10px; */
+  text-decoration: none;
+  /* margin-top: 10px; */
   /* margin-left: 5px; */
+  text-justify: auto;
+  line-height: 30px;
 }
-/* .buttons > .email{ */
-  /* margin-top: 3px; */
-/* } */
 .buttons .linkedin{
   background-color: #5093e2;
-  margin-left: 5px;
+  /* margin-left: 5px; */
   color: #ffffff;
   font: bold;
-  /* font-weight: 500; */
-}
-.buttons > label{
-  margin-bottom: 3px;
-  font: bold;
-  /* font-weight: 500; */
+  text-align: center;
+  line-height: 30px;
 }

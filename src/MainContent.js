@@ -17,8 +17,8 @@ export default function MainContent(){
                         </div>
 
                         <div className="buttons">
-                            <button className="email" href=""> <label>Email</label></button>
-                            <button className="linkedin" onclick="location.href='http://www.example.com'" type="button">  <label>LinkedIn</label></button>
+                            <a className="email" href="https://mail.google.com/mail/u/0/#inbox" target="_blank">Email</a>
+                            <a className="linkedin" href="https://www.linkedin.com/feed/" target="_blank">LinkedIn</a>
                         </div>
 
                         <div className="about-interests">
